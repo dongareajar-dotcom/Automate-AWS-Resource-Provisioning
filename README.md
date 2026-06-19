@@ -1,71 +1,23 @@
-# Automate AWS Resource Provisioning
+# Screenshots
 
-## Overview
-This project automates AWS resource creation using Python and boto3.
+## AWS CLI Configuration
 
-## Services Used
-- AWS EC2
-- AWS S3
-- AWS IAM
-- Python
-- boto3
+![AWS CLI Configuration](screenshots/aws-cli-configure.png)
 
-## Project Structure
+## S3 Bucket Created
 
-create_s3.py
-create_ec2.py
-create_iam.py
-requirements.txt
+![S3 Bucket Created](screenshots/s3-bucket-created.png)
 
-## Setup
+## EC2 Instance Running
 
-1. Install Python
-2. Install boto3
+<img width="1050" height="53" alt="EC2-Instance-cretaed" src="https://github.com/user-attachments/assets/136cf0ba-4aa3-48fd-a635-8caf07f69ec4" />
 
-```bash
-pip install boto3
 
-#Configure AWS CLI
-aws configure
+## Terminal Output
 
-#Run Scripts#
-*Create S3 Bucket
-python create_s3.py
+<img width="1252" height="221" alt="Terminal op" src="https://github.com/user-attachments/assets/9067f0e1-c915-4ab7-ae2d-22f4220d1032" />
 
-*Create EC2 Instance
-python create_ec2.py
 
-*Create IAM User
-python create_iam.py
+## Project Architecture
 
-*Skills Demonstrated*
-AWS Automation
-Python Scripting
-boto3 SDK
-Cloud Resource Provisioning
-Infrastructure as Code Concepts
-### Flow ###
-        +------------------+
-        |   Python Script  |
-        |     (boto3)      |
-        +--------+---------+
-                 |
-                 v
-        +------------------+
-        |      AWS API     |
-        +--------+---------+
-                 |
-      +----------+----------+
-      |                     |
-      v                     v
-+------------+      +--------------+
-|   Amazon   |      |   Amazon     |
-|     S3     |      |     EC2      |
-+------------+      +--------------+
-
-(Optional)
-      |
-      v
-+------------+
-|    IAM     |
-+------------+
+![Uploading architeutrreimage.png…]()

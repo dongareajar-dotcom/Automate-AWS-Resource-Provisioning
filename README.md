@@ -44,4 +44,28 @@ Python Scripting
 boto3 SDK
 Cloud Resource Provisioning
 Infrastructure as Code Concepts
+### Flow ###
+        +------------------+
+        |   Python Script  |
+        |     (boto3)      |
+        +--------+---------+
+                 |
+                 v
+        +------------------+
+        |      AWS API     |
+        +--------+---------+
+                 |
+      +----------+----------+
+      |                     |
+      v                     v
++------------+      +--------------+
+|   Amazon   |      |   Amazon     |
+|     S3     |      |     EC2      |
++------------+      +--------------+
 
+(Optional)
+      |
+      v
++------------+
+|    IAM     |
++------------+

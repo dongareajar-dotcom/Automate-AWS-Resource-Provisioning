@@ -20,4 +20,5 @@
 
 ## Project Architecture
 
-![Uploading architeutrreimage.png…]()
+<img width="1536" height="1024" alt="architeutrreimage" src="https://github.com/user-attachments/assets/7d1cd5d6-34c0-48d7-b634-fa3ba18e5150" />
+
